@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #67B26F, #4ca2cd);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+section {
+    padding: 2.5rem;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+form {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+input {
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #F8F8FF;
+    font-family: inherit;
+}
+
+input:focus,
+input:focus-visible {
+    outline: 1px solid #181818;
+}
+
+button {
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #181818;
+    color: #F8F8FF;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+ul {
+    margin: 1rem;
+}
+
+li {
+    line-height: 2rem;
+}
+
+li.done {
+    text-decoration: line-through;
+}
