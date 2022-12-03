@@ -60,8 +60,11 @@ ul {
 
 li {
     line-height: 2rem;
+    cursor: pointer;
+
 }
 
 li.done {
     text-decoration: line-through;
+    text-decoration-thickness: 2px;
 }
